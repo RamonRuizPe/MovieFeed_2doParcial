@@ -6,4 +6,12 @@
     android:layout_height="match_parent"
     tools:context=".MoviesActivity">
 
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/movie_recycler"
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:background="@color/purple_500"
+        android:backgroundTint="@color/purple_500"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
